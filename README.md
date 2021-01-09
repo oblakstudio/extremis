@@ -1,4 +1,8 @@
-# Extremis
+<p align="center">
+  <a href="https://oblak.studio">
+    <img alt="Extremis" src="https://repo.oblak.studio/extremis.png" height="100">
+  </a>
+</p>
 
 Extremis is a WordPress child theme with modern development workflow.
 Extremis is based on [Sage v9](https://github.com/roots/sage)
