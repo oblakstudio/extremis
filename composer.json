@@ -10,7 +10,7 @@
     },
     "require": {
         "php": ">=7.4",
-        "oblak/extremis-core": "^1.0",
+        "oblak/extremis-core": "^2.0",
         "oblak/wp-asset-manager": "^2.0"
     },
     "require-dev": {
