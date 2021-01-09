@@ -1,0 +1,13 @@
+@import "common/variables";
+
+/** Import everything from autoload */
+@import ".autoload/**/*";
+
+/** Import theme styles */
+@import "common/responsive";
+@import "common/global";
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";

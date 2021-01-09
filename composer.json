@@ -1,0 +1,31 @@
+{
+    "name": "oblak/extremis",
+    "type": "wordpress-theme",
+    "license": "Closed",
+    "description": "Child Theme development framework",
+    "autoload": {
+        "psr-4": {
+            "Extremis\\": "framework/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "oblak/extremis-core": "^1.0",
+        "oblak/wp-asset-manager": "^2.0"
+    },
+    "require-dev": {
+        "oblak/extremis-installer": "^1.0"
+    },
+    "scripts" :{
+        "post-create-project-cmd": [
+            "vendor/bin/extremis meta",
+            "yarn install"
+        ],
+        "post-autoload-dump": [
+            "composer run-script generate-classmap"
+        ],
+        "generate-classmap": [
+            "Extremis\\AutoConstructor::run"
+        ]
+    }
+}
